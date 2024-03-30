@@ -5,7 +5,6 @@ class PreProcessing():
     def __init__(self, data):
         self.data = data
         
-        
     def clean_data(self):
         data = self.data
         #data.drop('Unnamed: 0', axis=1, inplace=True)
